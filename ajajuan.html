@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">   
+    <title>habla</title>    
+    <style> 
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Roboto", sans-serif;
+        }
+        
+        .ajajuan { 
+            background-color: #008F8C;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+
+        .ajajuan h2 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .color-selector {
+            margin-top: 20px;
+        }
+
+        .color-p {
+            cursor: pointer;
+            display: inline-block;
+            margin-right: 10px; 
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+
+        .container {
+            margin-top: 50px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            max-width: 600px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        input[type="text"]:focus,
+        textarea:focus {
+            border-color: #008F8C;
+            outline: none;
+        }
+
+        input[type="submit"] {
+            background-color: #008F8C;
+            color: #fff;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #006C68;
+        }
+
+        .extra-content {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .extra-content h3 {
+            color: #008F8C;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .extra-content p {
+            color: #333;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .image-collage {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .image-collage img {
+            width: 200px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="ajajuan" id="ajajuan">
+    <h2>cambiar color, elijalo</h2>
+    <div class="color-selector">
+        <p class="color-p" style="color: red;">Rojo</p>
+        <p class="color-p" style="color: blue;">Azul</p>
+        <p class="color-p" style="color: green;">Verde</p>
+        <p class="color-p" style="color: orange;">Naranja</p>
+        <p class="color-p" style="color: purple;">Morado</p>
+        <p class="color-p" style="color: yellow;">Amarillo</p>
+        <p class="color-p" style="color: pink;">Rosa</p>
+        <p class="color-p" style="color: brown;">Marrón</p>
+        <p class="color-p" style="color: cyan;">Cian</p>
+
+    </div>
+</div>
+
+<div class="container">
+    <a href="https://youtu.be/wohwc9MQt6A?si=Qo3-50IKH5N2jmyw&t=118" target="_blank">
+        <img src="https://www.infobae.com/new-resizer/5JcVj5x9iQfScTV9tjJM0lcUhWw=/arc-anglerfish-arc2-prod-infobae/public/3BI4V6LC2ZAI3K6DUJHYOQP7RM.jpg" alt="Imagen">
+    </a>
+    <form>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" placeholder="Ingrese su nombre">
+
+        <label for="email">Correo electrónico:</label>
+        <input type="text" id="email" name="email" placeholder="Ingrese su correo electrónico">
+
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" rows="4" placeholder="Escriba su mensaje aquí"></textarea>
+
+        <input type="submit" value="Enviar">
+    </form>
+</div>
+
+<div class="extra-content">
+    <h3>Imágenes</h3>
+    <div class="image-collage">
+        <img src="https://i.pinimg.com/236x/10/18/1b/10181b7ddf3e3ce780821425616e69e3.jpg" alt="Imagen 1">
+        <img src="https://i1.sndcdn.com/artworks-000124103951-wv87zq-t240x240.jpg" alt="Imagen 2">
+        <img src="https://media.tenor.com/IjIXFxklw40AAAAe/meme-shitpost.png" alt="Imagen 3">
+        <img src="https://yt3.googleusercontent.com/BCThvBYp7B-_OWh9pFScji0wY67WpfJNZho2dn2W4-Mociymt_gEulBQ6ZVoh_yGOsmO0OMt=s176-c-k-c0x00ffffff-no-rj" alt="Imagen 4">
+        <img src="https://i.pinimg.com/236x/6f/a6/cd/6fa6cd958f91e88912c83fd62ef40d12.jpg" alt="Imagen 5">
+        <img src="https://i.pinimg.com/236x/77/2a/52/772a52a9d9f3b42b281118679c0471bb.jpg" alt="Imagen 6">
+    </div>
+    <p>Hector solano mariano</p>
+</div>
+
+<script>
+    function cambiarColor(color) {
+        var ajajuan = document.getElementById('ajajuan');
+        ajajuan.style.backgroundColor = color;
+    }
+
+    var colorP = document.querySelectorAll('.color-p');
+    colorP.forEach(function(p) {
+        p.addEventListener('click', function() {
+            var color = this.style.color;
+            cambiarColor(color);
+        });
+    }); 
+</script>
+
+</body>
+</html>
